@@ -1,0 +1,27 @@
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+@media (min-width: 768px) {
+    .weather {
+        margin-top: 2rem;
+    }
+}
+.weather h2 {
+    margin: 0;
+}
+.weather .temp {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 5rem 0;
+}
+.weather .minMax {
+    display: flex;
+    gap: 2rem;
+}
+.minMax span {
+    font-weight: 700;
+}

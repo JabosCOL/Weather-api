@@ -1,0 +1,26 @@
+.alert {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #eb4545;
+    border: .3rem solid #DC2626;
+    border-radius: 1rem;
+    color: var(--white);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon svg {
+    fill: currentColor;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+}
+.text {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
